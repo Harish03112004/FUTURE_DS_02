@@ -118,6 +118,6 @@ python train_model.py
 
 ## 👤 Author
 
-**Guru Patel**
+**Harish Patil**
 
 Data Science & Analytics Intern
