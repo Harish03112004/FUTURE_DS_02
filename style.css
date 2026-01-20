@@ -1,0 +1,123 @@
+/* ===== GLOBAL DARK THEME ===== */
+html, body, [class*="css"] {
+    background-color: #0b0f1a;
+    color: #e5e7eb;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===== REMOVE STREAMLIT DEFAULT PADDING ===== */
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   
+    max-width: 1100px;
+}
+
+/* ===== TITLE ===== */
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #10b981;
+    margin-bottom: 4px;
+    text-align: center;
+    text-shadow:
+        0 0 10px rgba(16, 185, 129, 0.6),
+        0 0 25px rgba(16, 185, 129, 0.45),
+        0 0 40px rgba(34, 211, 238, 0.35);
+}
+
+/* ===== CARD CONTAINER ===== */
+.card {
+    
+    border-radius: 14px;
+    padding: 16px 20px;   /* Normal size */
+    margin-bottom: 20px;
+    
+    background: #0f172a;
+    box-shadow: 0 0 25px rgba(16,185,129,0.15);
+}
+
+/* ===== INPUT LABELS ===== */
+label {
+    color: #6df7d2 !important;
+    font-weight: 2500;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== INPUT BOXES (COMPACT STYLE) ===== */
+input,
+select {
+    background-color: #0f172a !important;   /* Deep slate */
+    color: #e5e7eb !important;
+    height: 36px !important;
+    padding: 4px 10px !important;
+    font-size: 13px;
+    border: 1px solid #047857 !important;   /* Emerald border */
+    border-radius: 7px !important;
+
+    /* ✨ Soft inner glow */
+    box-shadow: inset 0 0 8px rgba(16, 185, 129, 0.45);
+}
+
+
+/* ===== BUTTON ===== */
+.stButton button {
+    background: linear-gradient(135deg, #10b981, #22d3ee);
+    color: #022c22;
+    
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-style: bold;
+    padding: 10px 25px;
+    
+    border-radius: 100px;
+    
+    border: 2px solid #107f42; /* Dark emerald */
+    border-radius: 100px;
+    box-shadow:
+       0 0 30px rgba(16, 185, 129, 0.6),
+       0 0 50px rgba(34, 211, 238, 0.45);
+
+    
+
+}
+
+.stButton button:hover {
+    transform: scale(1.05);
+}
+
+/* ===== RESULT BOX ===== */
+.success-box {
+    background: #07381b;
+    border-left: 6px solid #209b4d;
+    padding: 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.error-box {
+    background: #3f1d1d;
+    border-left: 6px solid #ef4444;
+    padding: 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* ===== LIMIT INPUT WIDTH SLIGHTLY ===== */
+.stSelectbox,
+.stNumberInput {
+    max-width: 95%;
+}
+.stTextInput {
+    max-width: 95%;
+}
+
+
+@media (min-width: calc(736px + 8rem)) {
+    .st-emotion-cache-zy6yx3 {
+        padding-left: 50rem;
+        padding-right: 50rem;
+    }
+}
